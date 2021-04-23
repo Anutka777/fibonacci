@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def fibonacci(num)
+def fibs(num)
   result = [0, 1]
   if num <= 1
     puts '0'
@@ -13,9 +13,9 @@ def fibonacci(num)
   puts result.join(' ')
 end
 
-# fibonacci(0)
-# fibonacci(1)
-# fibonacci(2)
-# fibonacci(5)
-# fibonacci(10)
-# fibonacci(99)
+# fibs(0)
+# fibs(1)
+# fibs(2)
+# fibs(5)
+# fibs(10)
+# fibs(99)
